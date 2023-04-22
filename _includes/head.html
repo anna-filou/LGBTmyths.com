@@ -1,0 +1,31 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ site.title }} | {{ page.title }}</title>
+
+<meta content="{% if page.description %}{{page.description}}{%else%}{{site.description}}{% endif %}" name="description">
+<meta content="{{ site.title }} | {{ page.title }}" property="og:title">
+<meta content="{% if page.description %}{{page.description}}{%else%}{{site.description}}{% endif %}" property="og:description">
+<meta content="{{ site.title }} | {{ page.title }}" property="twitter:title">
+<meta content="{% if page.description %}{{page.description}}{%else%}{{site.description}}{% endif %}" property="twitter:description">
+<meta property="og:type" content="website">
+
+<!-- Meta images -->
+<meta property="og:image" content="{{site.url}}/meta.jpg">
+<meta content="summary_large_image" name="twitter:card">
+<meta property="twitter:image" content="{{site.url}}/meta/og.jpg">
+<link href="/meta/favicon-32.png" rel="shortcut icon" type="image/x-icon">
+<link href="/meta/favicon-256.png" rel="apple-touch-icon">
+<!-- Append ?v=2 when making a change so that browsers refresh -->
+
+<link rel="stylesheet" href="/assets/css/tachyons.css">
+<link rel="stylesheet" href="/assets/css/style.css">
+
+{% include analytics.html %}
+
+<!-- <script id="help-ukraine-win" async="true" src="/ua-widget.js" data-type="one" data-position="top-right"></script> -->
+
+<script>
+    /* to prevent Firefox FOUC */
+    let FF_FOUC_FIX;
+</script>

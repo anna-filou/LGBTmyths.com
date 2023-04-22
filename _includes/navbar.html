@@ -1,0 +1,7 @@
+{%- for link in data.main -%}
+
+<a class="{%- if page.url contains link.url -%}b {%- else -%}link{%- endif -%}" href="/
+{{page.lang}}/
+{{link.url}}/">{{link[page.lang]}}</a>
+
+{%- endfor -%}

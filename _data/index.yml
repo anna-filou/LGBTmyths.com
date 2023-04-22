@@ -1,0 +1,9 @@
+hero:
+  title:
+    en: English
+    de: German
+  text:
+    en: |
+      English
+    de: |-
+      German

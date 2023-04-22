@@ -1,0 +1,23 @@
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, restart the server process.
+
+# Site settings
+# If you look in the HTML files, you will see them accessed via
+# {{ site.title }}, {{ site.email }}, and so on.
+title: Title
+description: >- # this means to ignore newlines until the next point
+
+
+# Build settings
+markdown: kramdown
+
+#plugins:
+
+permalink: pretty
+
+# Access values inside YML files within the _text folder using
+# {{{{ item.VALUE }}FILENAME}}
+# For example, to call upon frontmatter within text/homepage
+# {% for item in site.text.homepage %}
+# {{ item.VALUE }} where VALUE is frontmatter wihin YML file
+# or just {{site.text.homepage.VALUE }} (I THINK???)
