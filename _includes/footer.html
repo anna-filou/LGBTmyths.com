@@ -1,7 +1,22 @@
-{%- for link in data.main -%}
+<!-- {%- for link in data.main -%}
 
 <a class="{%- if page.url contains link.url -%}b {%- else -%}link{%- endif -%}" href="/
 {{page.lang}}/
 {{link.url}}/">{{link[page.lang]}}</a>
 
-{%- endfor -%}
+{%- endfor -%} -->
+
+<footer class="container mt6 mb4">
+    <div class="measure">
+        <a href="" class="main-link dim">
+            <div>About this website</div> <div>→</div>
+        </a>
+        <a href="" class="main-link dim">
+            <div>Send feedback or contribute</div> <div>→</div>
+        </a>
+
+        <div class="o-60 mt5">
+            <p>Privacy Notice: We use <a href="">privacy-friendly analytics</a> to collect anonymous data, like number of visitors. Opt out by blocking third-party cookies from your browser’s settings.</p>
+        </div>
+    </div>
+</footer>

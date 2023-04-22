@@ -1,7 +1,31 @@
-{%- for link in data.main -%}
+<!-- {%- for link in data.main -%}
 
 <a class="{%- if page.url contains link.url -%}b {%- else -%}link{%- endif -%}" href="/
 {{page.lang}}/
 {{link.url}}/">{{link[page.lang]}}</a>
 
-{%- endfor -%}
+
+
+{%- endfor -%} -->
+
+<!-- <nav class="container-ns flex flex-row justify-between content-center items-center sticky">
+    <a href="/" class="">
+        <img src="/assets/lgbt-flag.svg" alt="LGBT Flag" class="grow-large">
+    </a>
+    <a href="/" class="">Myths</a>
+    <a href="/FAQ" class="">FAQ</a>
+    <a href="/about" class="">About</a>
+</nav> -->
+
+<nav class="container sticky">
+    <div class="flex flex-row justify-between content-center items-center pv2">
+        <a href="/" class="">
+            <img src="/assets/lgbt-flag.svg" alt="LGBT Flag" class="grow-large">
+        </a>
+        <div class="bg-white pa2 b">
+            <a href="/" class="mh2 link dim">Myths</a>
+            <a href="/FAQ" class="mh2 link dim">FAQ</a>
+            <a href="/about" class="mh2 link dim">About</a>
+        </div>
+    </div>
+</nav>

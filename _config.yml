@@ -4,16 +4,22 @@
 # Site settings
 # If you look in the HTML files, you will see them accessed via
 # {{ site.title }}, {{ site.email }}, and so on.
-title: Title
+title: LGBT Myths
 description: >- # this means to ignore newlines until the next point
 
 
 # Build settings
 markdown: kramdown
 
-#plugins:
-
-permalink: pretty
+collections:
+  myths:
+    title: myths
+    output: false
+    permalink: /:categories/:title
+#   posts:
+#     title: Posts
+#     output: true
+#     permalink: /:categories/:title
 
 # Access values inside YML files within the _text folder using
 # {{{{ item.VALUE }}FILENAME}}
@@ -21,3 +27,24 @@ permalink: pretty
 # {% for item in site.text.homepage %}
 # {{ item.VALUE }} where VALUE is frontmatter wihin YML file
 # or just {{site.text.homepage.VALUE }} (I THINK???)
+
+#plugins:
+
+permalink: pretty
+highlighter: rouge
+sass:
+    style: compressed
+    sourcemap: always
+plugins:
+- jekyll-feed
+exclude:
+- ".sass-cache/"
+- ".jekyll-cache/"
+- gemfiles/
+- Gemfile
+- Gemfile.lock
+- node_modules/
+- vendor/bundle/
+- vendor/cache/
+- vendor/gems/
+- vendor/ruby/

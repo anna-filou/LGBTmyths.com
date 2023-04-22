@@ -3,3 +3,35 @@ layout: default
 ---
 <!-- layout: default means that this layout INCLUDES everything in default.html 
 AND adds the following code in the {{content}} area of default.html -->
+
+<section class="container mv4">
+    <div class="measure">
+        <p>Widespread misconceptions about LGBT people.</p>
+
+        <a href="" class="main-link dim">
+            <div>Send feedback or contribute</div> <div>→</div>
+        </a>
+    </div>
+
+    
+
+</section>
+
+<section class="container">
+    <hr>
+</section>
+
+
+<section class="container">
+
+    {%- for myth in site.myths -%}
+    <div id="{{myth.id | split: '--' | shift}}" class="measure mv5">
+        <h2 class="f5"><span class="dark-red">{{myth.type}}:</span> {{myth.title}}</h2>
+        <!-- <h1>{{myth.id | split: '--' | shift}}</h1> -->
+        <div>
+            <p style="widows: 2">{{myth.short}}</p>
+        </div>
+    </div>
+    {%- endfor -%}
+
+</section>

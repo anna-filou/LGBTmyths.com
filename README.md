@@ -1,1 +1,0 @@
-# LGBTmyths.com
