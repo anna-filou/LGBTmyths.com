@@ -5,7 +5,7 @@
 # If you look in the HTML files, you will see them accessed via
 # {{ site.title }}, {{ site.email }}, and so on.
 title: LGBT Myths
-description: >- # this means to ignore newlines until the next point
+description: Widespread misconceptions about LGBT people.
 url: https://lgbtmyths.com
 
 # Build settings
