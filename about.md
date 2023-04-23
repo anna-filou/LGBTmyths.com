@@ -19,7 +19,7 @@ I’m [Anna, a designer / developer from Europe](https://annafilou.com). 👋�
 
 I wrote the original content for this website, but realize the most effective way to challenge misinformation is through collaboration and feedback. 
 
-That's why I'm committed to incorporating input from visitors, to make this site as informative and impactful as possible.
+That's why I'm looking for input from visitors, to make this site as informative and impactful as possible.
 
 ## Why did you make this?
 

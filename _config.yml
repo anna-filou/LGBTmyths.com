@@ -14,8 +14,9 @@ markdown: kramdown
 collections:
   myths:
     title: myths
-    output: false
-    permalink: /:categories/:title
+    output: true
+    permalink: /:title
+    layout: myth
 #   posts:
 #     title: Posts
 #     output: true

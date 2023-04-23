@@ -10,7 +10,8 @@ $container: 1128px;
 
 // COLORS
 
-$light-bg: #f8f8f8;
+// $light-bg: #f8f8f8;
+$light-bg: #fff;
 $dark-bg: #1e1e1e;
 
 $light-body: #121212;
@@ -94,7 +95,7 @@ hr {
     justify-content: space-between;
     padding: 0 1px 6px 1px;
     // flex flex-row justify-between 
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 article {
