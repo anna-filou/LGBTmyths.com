@@ -1,0 +1,61 @@
+---
+layout: default
+---
+<!-- layout: default means that this layout INCLUDES everything in default.html 
+AND adds the following code in the {{content}} area of default.html -->
+
+
+<section class="container mt5-ns mb4">
+    <div class="flex flex-column flex-row-ns ba b--black-10 bg-faint pa4 br3 nl4 nr4">
+        <h1 class="w-40-ns mt0 f4 fw4 tracked">LGBT FAQ</h1>
+        <div class="">
+            <div class="measure f4">Frequently asked questions based on misconceptions about LGBT people.</div>
+            <a href="" class="main-link dim">
+                <div>Send feedback or contribute</div> <div>→</div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="container">
+
+    {%- for faq in site.faq -%}
+    <div id="{{faq.id | split: '--' | shift}}" class="flex-ns flex-row-ns justify-between mv5">
+        <div class="w-40-ns pr5-ns pt3-ns">
+            <!-- <div class="dark-red b ttu tracked f6">{{faq.type}}</div> -->
+            <h2 class="f5 mt0">{{faq.title}}</h2>
+            <!-- <h1>{{faq.id | split: '--' | shift}}</h1> -->
+        </div>
+        
+        <div class="w-60-ns">
+            <div>
+                {{faq.short | markdownify }}
+            </div>
+    
+            <div class="flex flex-row justify-between bt bw1 b--black-20">
+                <!-- <div class="ttu tracked o-50 pv2 f6 fw5">{{faq.tags}}</div> -->
+                <a class="pa2 link b w-100 tr ml5 dim" href="{{faq.url}}">→</a>
+            </div>
+        </div>
+    </div>
+    {%- endfor -%}
+
+    <div id="{{faq.id | split: '--' | shift}}" class="flex-ns flex-row-ns justify-between pt4 mv5">
+        <div class="w-40-ns pr5-ns pt2-ns">
+            <div class="dark-green b ttu tracked">Make a suggestion</div>
+            <!-- <h2 class="f5 mt2">Suggest a myth</h2> -->
+            <!-- <h1>{{faq.id | split: '--' | shift}}</h1> -->
+        </div>
+        
+        <div class="w-60-ns">
+            <div>
+                {{faq.short | markdownify }}
+            </div>
+    
+            <a href="{{faq.url}}" class="dim link flex flex-row justify-between bt bw1 b--black-20">
+                <div class="ttu tracked pv2 f6 fw5">Take me to the form</div>
+                <div class="pa2 link b">→</div>
+            </a>
+        </div>
+    </div>
+</section>

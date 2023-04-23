@@ -1,21 +1,32 @@
 ---
 layout: default
 ---
-<section class="container mt5">
+<section class="container mt5-ns">
     
-    <div class="dark-red b ttu tracked">{{page.type}}</div>
-    <h1 class="f4 mt2">{{page.title}}</h1>
+    <div class="ba b--black-10 pa4 br3 nl4 nr4 bg-faint">
+        <div class="dark-red b ttu tracked">{{page.type}}</div>
+        <h1 class="f4 mt2">{{page.title}}</h1>
 
-    <div class="green b ttu tracked nb2 mt4">Reality</div>
-    <div class="measure f4">
-        {{page.short | markdownify }}
+        <div class="green b ttu tracked nb2 mt4">Reality</div>
+        <div class="measure f4">
+            {{page.short | markdownify }}
+        </div>
+
+        <div class="flex-ns flex-row-ns justify-between">
+            <div class="ttu tracked o-50 pv2 f6 fw5 mt4">Tags: {{page.tags}}</div>
+            <div class="ttu tracked pv2 f6 fw5 mt4"><span class="o-50">Share on:</span> 
+                <a href="https://twitter.com/intent/tweet?url={{site.url}}{{page.url}}&text=❌ {{page.type}}: {{page.title}} ✅Reality: ">
+                    Twitter</a>, 
+                <a href="">
+                    Facebook</a>
+            </div>
+        </div>
     </div>
-
-    <div class="ttu tracked o-50 pv2 f6 fw5 mt4">TAGS: {{page.tags}}</div>
-
-    <hr>
+    
 </section>
 
 <article class="container">
-    {{ content }}
+    <div class="measure">
+        {{ content }}
+    </div>
 </article>

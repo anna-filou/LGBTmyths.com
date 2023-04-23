@@ -1,7 +1,12 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ site.title }} | {{ page.title }}</title>
+<title>{{ site.title }}
+    {% if page.title %}
+     | {{page.title}}
+    {%else%}
+    {% endif %}
+</title>
 
 <meta content="{% if page.description %}{{page.description}}{%else%}{{site.description}}{% endif %}" name="description">
 <meta content="{{ site.title }} | {{ page.title }}" property="og:title">

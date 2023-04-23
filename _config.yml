@@ -6,7 +6,7 @@
 # {{ site.title }}, {{ site.email }}, and so on.
 title: LGBT Myths
 description: >- # this means to ignore newlines until the next point
-
+url: https://lgbtmyths.com
 
 # Build settings
 markdown: kramdown
@@ -17,6 +17,14 @@ collections:
     output: true
     permalink: /:title
     layout: myth
+    sort_by: order
+  faq:
+    title: myths
+    output: true
+    permalink: /faq/:title
+    layout: myth
+    sort_by: order
+
 #   posts:
 #     title: Posts
 #     output: true

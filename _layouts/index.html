@@ -5,8 +5,8 @@ layout: default
 AND adds the following code in the {{content}} area of default.html -->
 
 
-<section class="container mt3 mb4">
-    <div class="flex flex-column flex-row-ns ba b--black-20 pa4 br3 nl4 nr4">
+<section class="container mt5-ns mb4">
+    <div class="flex flex-column flex-row-ns ba b--black-10 bg-faint pa4 br3 nl4 nr4">
         <h1 class="w-40-ns mt0 f4 fw4 tracked">LGBT Myths</h1>
         <div class="">
             <div class="f4">Widespread misconceptions about LGBT people.</div>
@@ -22,7 +22,7 @@ AND adds the following code in the {{content}} area of default.html -->
     {%- for myth in site.myths -%}
     <div id="{{myth.id | split: '--' | shift}}" class="flex-ns flex-row-ns justify-between mv5">
         <div class="w-40-ns pr5-ns pt3-ns">
-            <div class="dark-red b ttu tracked">{{myth.type}}</div>
+            <div class="dark-red b ttu tracked f6">{{myth.type}}</div>
             <h2 class="f5 mt2">{{myth.title}}</h2>
             <!-- <h1>{{myth.id | split: '--' | shift}}</h1> -->
         </div>

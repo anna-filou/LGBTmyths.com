@@ -1,5 +1,6 @@
 ---
 layout: measure
+title: About
 ---
 
 # About this website
