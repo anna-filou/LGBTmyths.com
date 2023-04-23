@@ -19,51 +19,32 @@ AND adds the following code in the {{content}} area of default.html -->
         </div>
     </div>
 </section>
+
 <section class="container">
-
-    <section class="container">
-        {%- for faq in site.faq -%}
-        <a href="{{faq.url}}" class="link body-text">
-            <div id="{{faq.id | split: '--' | shift}}" class="grow flex-ns flex-row-ns justify-between mv4 ba b--black-10 pa4 br3 nl4-ns nr4-ns">
-                <div class="w-40-ns pr5-ns pt3-ns">
-                    <div class="dark-red b ttu tracked f6">{{faq.type}}</div>
-                    <h2 class="f4 mt2">{{faq.title}}</h2>
-                </div>
-                
-                <div class="w-60-ns">
-                    <div>
-                        {{faq.short | markdownify }}
-                    </div>
-                    <div class="f3 tr">→</div>
-                </div>
+    {%- for faq in site.faq -%}
+    <a href="{{faq.url}}" class="link body-text">
+        <div id="{{faq.id | split: '--' | shift}}" class="grow flex-ns flex-row-ns justify-between mv4 ba b--black-10 pa4 br3 nl4-ns nr4-ns">
+            <div class="w-40-ns pr5-ns pt3-ns">
+                <div class="gray b ttu tracked f6">Question</div>
+                <h2 class="f4 mt2">“{{faq.title}}”</h2>
             </div>
-        </a>
-        {%- endfor -%}
-    
-        <a href="{{site.data.general.feedback-form}}" class="link">
-            <div id="{{faq.id | split: '--' | shift}}" class="dim flex-ns flex-row-ns justify-between mv4 ba b--black-10 pa4 br3 nl4-ns nr4-ns">
-    
-                <div class="f4 b">Suggest a questions to answer</div>
+            
+            <div class="w-60-ns">
+                <div>
+                    {{faq.short | markdownify }}
+                </div>
                 <div class="f3 tr">→</div>
-                
             </div>
-        </a>
-    </section>
+        </div>
+    </a>
+    {%- endfor -%}
 
-    <!-- <div id="{{faq.id | split: '--' | shift}}" class="flex-ns flex-row-ns justify-between pt4 mv5">
-        <div class="w-40-ns pr5-ns pt2-ns">
-            <div class="dark-green b ttu tracked">Make a suggestion</div>
+    <a href="{{site.data.general.feedback-form}}" class="link">
+        <div id="{{faq.id | split: '--' | shift}}" class="dim flex-ns flex-row-ns justify-between mv4 ba b--black-10 pa4 br3 nl4-ns nr4-ns">
+
+            <div class="f4 b">Suggest a questions to answer</div>
+            <div class="f3 tr">→</div>
+            
         </div>
-        
-        <div class="w-60-ns">
-            <div>
-                {{faq.short | markdownify }}
-            </div>
-    
-            <a href="{{faq.url}}" class="dim link flex flex-row justify-between bt bw1 b--black-20">
-                <div class="ttu tracked pv2 f6 fw5">Take me to the form</div>
-                <div class="pa2 link b">→</div>
-            </a>
-        </div>
-    </div> -->
+    </a>
 </section>
