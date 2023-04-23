@@ -6,7 +6,7 @@ AND adds the following code in the {{content}} area of default.html -->
 
 
 <section class="container mt4-ns mb5">
-    <div class="flex flex-column flex-row-ns pa4 br3 nl4 nr4 bg-faint ">
+    <div class="flex flex-column flex-row-ns pa4 br3 nl4-ns nr4-ns bg-faint ">
         <!-- <h1 class="w-40-ns mt0 f4 fw4">LGBT Myths</h1> -->
         <h1 class="w-40-ns mt0 f4 fw4">
             <img src="/assets/lgbtmyths-logo.svg" alt="" style="max-width: 160px;">
@@ -24,7 +24,7 @@ AND adds the following code in the {{content}} area of default.html -->
 <section class="container">
     {%- for myth in site.myths -%}
     <a href="{{myth.url}}" class="link body-text">
-        <div id="{{myth.id | split: '--' | shift}}" class="grow flex-ns flex-row-ns justify-between mv4 ba b--black-10 pa4 br3 nl4 nr4">
+        <div id="{{myth.id | split: '--' | shift}}" class="grow flex-ns flex-row-ns justify-between mv4 ba b--black-10 pa4 br3 nl4-ns nr4-ns">
             <div class="w-40-ns pr5-ns pt3-ns">
                 <div class="dark-red b ttu tracked f6">{{myth.type}}</div>
                 <h2 class="f4 mt2">{{myth.title}}</h2>
@@ -41,7 +41,7 @@ AND adds the following code in the {{content}} area of default.html -->
     {%- endfor -%}
 
     <a href="{{site.data.general.feedback-form}}" class="link">
-        <div id="{{myth.id | split: '--' | shift}}" class="dim flex-ns flex-row-ns justify-between mv4 ba b--black-10 pa4 br3 nl4 nr4">
+        <div id="{{myth.id | split: '--' | shift}}" class="dim flex-ns flex-row-ns justify-between mv4 ba b--black-10 pa4 br3 nl4-ns nr4-ns">
 
             <div class="f4 b">Suggest a myth</div>
             <div class="f3 tr">→</div>
