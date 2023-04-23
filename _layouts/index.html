@@ -5,26 +5,58 @@ layout: default
 AND adds the following code in the {{content}} area of default.html -->
 
 
-<section class="container mt5-ns mb4">
-    <div class="flex flex-column flex-row-ns ba b--black-10 bg-faint pa4 br3 nl4 nr4">
-        <h1 class="w-40-ns mt0 f4 fw4 tracked">LGBT Myths</h1>
+<section class="container mt4-ns mb5">
+    <div class="flex flex-column flex-row-ns pa4 br3 nl4 nr4 bg-faint ">
+        <!-- <h1 class="w-40-ns mt0 f4 fw4">LGBT Myths</h1> -->
+        <h1 class="w-40-ns mt0 f4 fw4">
+            <img src="/assets/lgbtmyths-logo.svg" alt="" style="max-width: 160px;">
+        </h1>
         <div class="">
-            <div class="f4">Widespread misconceptions about LGBT people.</div>
-            <a href="" class="main-link dim">
+            <div class="f4 mb4">Widespread misconceptions about LGBT people.</div>
+            <a href="{{site.data.general.feedback-form}}" target="_blank" class="main-link dim">
                 <div>Send feedback or contribute</div> <div>→</div>
             </a>
         </div>
     </div>
 </section>
 
+
 <section class="container">
+    {%- for myth in site.myths -%}
+    <a href="{{myth.url}}" class="link body-text">
+        <div id="{{myth.id | split: '--' | shift}}" class="grow flex-ns flex-row-ns justify-between mv4 ba b--black-10 pa4 br3 nl4 nr4">
+            <div class="w-40-ns pr5-ns pt3-ns">
+                <div class="dark-red b ttu tracked f6">{{myth.type}}</div>
+                <h2 class="f4 mt2">{{myth.title}}</h2>
+            </div>
+            
+            <div class="w-60-ns">
+                <div>
+                    {{myth.short | markdownify }}
+                </div>
+                <div class="f3 tr">→</div>
+            </div>
+        </div>
+    </a>
+    {%- endfor -%}
+
+    <a href="{{site.data.general.feedback-form}}" class="link">
+        <div id="{{myth.id | split: '--' | shift}}" class="dim flex-ns flex-row-ns justify-between mv4 ba b--black-10 pa4 br3 nl4 nr4">
+
+            <div class="f4 b">Suggest a myth</div>
+            <div class="f3 tr">→</div>
+            
+        </div>
+    </a>
+</section>
+
+<!-- <section class="container">
 
     {%- for myth in site.myths -%}
     <div id="{{myth.id | split: '--' | shift}}" class="flex-ns flex-row-ns justify-between mv5">
         <div class="w-40-ns pr5-ns pt3-ns">
             <div class="dark-red b ttu tracked f6">{{myth.type}}</div>
             <h2 class="f5 mt2">{{myth.title}}</h2>
-            <!-- <h1>{{myth.id | split: '--' | shift}}</h1> -->
         </div>
         
         <div class="w-60-ns">
@@ -43,8 +75,6 @@ AND adds the following code in the {{content}} area of default.html -->
     <div id="{{myth.id | split: '--' | shift}}" class="flex-ns flex-row-ns justify-between pt4 mv5">
         <div class="w-40-ns pr5-ns pt2-ns">
             <div class="dark-green b ttu tracked">Make a suggestion</div>
-            <!-- <h2 class="f5 mt2">Suggest a myth</h2> -->
-            <!-- <h1>{{myth.id | split: '--' | shift}}</h1> -->
         </div>
         
         <div class="w-60-ns">
@@ -58,7 +88,7 @@ AND adds the following code in the {{content}} area of default.html -->
             </a>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- <section class="container">
 

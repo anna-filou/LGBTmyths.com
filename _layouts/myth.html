@@ -3,12 +3,12 @@ layout: default
 ---
 <section class="container mt5-ns">
     
-    <div class="ba b--black-10 pa4 br3 nl4 nr4 bg-faint">
-        <div class="dark-red b ttu tracked">{{page.type}}</div>
-        <h1 class="f4 mt2">{{page.title}}</h1>
+    <div class="pa4 nl4 nr4 pa5-ns br4 nl5-ns nr5-ns bg-faint">
+        <div class="dark-red b ttu tracked f6">{{page.type}}</div>
+        <h1 class="mt2 f5">{{page.title}}</h1>
 
-        <div class="green b ttu tracked nb2 mt4">Reality</div>
-        <div class="measure f4">
+        <div class="green b ttu tracked nb2 mt4 f6">Reality</div>
+        <div class="measure f5">
             {{page.short | markdownify }}
         </div>
 
@@ -25,7 +25,7 @@ layout: default
     
 </section>
 
-<article class="container">
+<article class="container mt5">
     <div class="measure">
         {{ content }}
     </div>

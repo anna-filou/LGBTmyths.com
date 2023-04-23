@@ -14,9 +14,9 @@ $container: 1128px;
 $light-bg: #fff;
 $dark-bg: #1e1e1e;
 
-$light-faint: #f7f7f3;
+$light-faint: #FBF8F7;
 
-$light-body: #121212;
+$light-body: #272727;
 $dark-body: #efefef;
 
 $light-border: #dcdcdc;
@@ -42,9 +42,14 @@ html {
   }
 
 body {
-    font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+    font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+    font-size: 18px;
     color: $light-body;
     background-color: $light-bg;
+}
+
+.body-text {
+    color: $light-body;
 }
 
 p {
