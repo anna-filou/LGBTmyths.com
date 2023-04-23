@@ -12,19 +12,19 @@ layout: default
 
         <h1 class="mt2 f5">{{page.title}}</h1>
         <div class="green b ttu tracked nb2 mt4 f6">Reality</div>
-        <div class="measure f5">
+        <div class="measure">
             {{page.short | markdownify }}
         </div>
 
         <div class="flex-ns flex-row-ns justify-between mt4">
-            <div class="ttu tracked o-50 pv2 f7 fw5">Tags: {{page.tags}}</div>
-            <div class="ttu tracked pv2 f7 fw5 "><span class="o-50">Share on:</span> 
+            <div class="ttu tracked o-50 pv1 f7 fw5">Tags: {{page.tags}}</div>
+            <div class="ttu tracked pv1 f7 fw5 "><span class="o-50">Share on:</span> 
                 <a href="https://twitter.com/intent/tweet?url={{site.url}}{{page.url}}&text=❌ {{page.type}}: {{page.title}} ✅Reality: ">
                     Twitter</a>, 
                 <a href="">
                     Facebook</a>
             </div>
-            <a href="{{site.data.general.feedback-form}}" class="ttu tracked f7 pv2 fw5 dn-ns dib">Suggest a change</a>
+            <a href="{{site.data.general.feedback-form}}" class="ttu tracked f7 pv1 fw5 dn-ns dib">Suggest a change</a>
         </div>
     </div>
     

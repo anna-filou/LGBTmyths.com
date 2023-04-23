@@ -11,12 +11,12 @@ $container: 1128px;
 // COLORS
 
 // $light-bg: #f8f8f8;
-$light-bg: #fff;
+$light-bg: #fdfdfd;
 $dark-bg: #1e1e1e;
 
 $light-faint: #FBF8F7;
 
-$light-body: #272727;
+$light-body: #272727; 
 $dark-body: #efefef;
 
 $light-border: #dcdcdc;
@@ -24,6 +24,10 @@ $light-border: #dcdcdc;
 $light-link: #3B4F96;
 
 // CSS
+
+.multiply {
+    mix-blend-mode: multiply;
+}
 
 html {
     scroll-behavior: smooth;
@@ -63,6 +67,8 @@ a {
 .sticky {
     position: sticky;
     top: 0;
+    background-color: rgba(0, 0, 0, 0); /* Set the background color with an opacity less than 1 */
+    // mix-blend-mode: multiply;
 }
 
 .bg-faint {
