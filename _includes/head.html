@@ -1,22 +1,18 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ site.title }}
-    {% if page.title %}
-     | {{page.title}}
-    {%else%}
-    {% endif %}
+<title>{{ site.title }}{% if page.title %} | {{page.title}}{%else%}{% endif %}
 </title>
 
 <meta content="{% if page.description %}{{page.description}}{%else%}{{site.description}}{% endif %}" name="description">
-<meta content="{{ site.title }} | {{ page.title }}" property="og:title">
+<meta content="{{ site.title }}{% if page.title %} | {{page.title}}{%else%}{% endif %}" property="og:title">
 <meta content="{% if page.description %}{{page.description}}{%else%}{{site.description}}{% endif %}" property="og:description">
-<meta content="{{ site.title }} | {{ page.title }}" property="twitter:title">
+<meta content="{{ site.title }}{% if page.title %} | {{page.title}}{%else%}{% endif %}" property="twitter:title">
 <meta content="{% if page.description %}{{page.description}}{%else%}{{site.description}}{% endif %}" property="twitter:description">
 <meta property="og:type" content="website">
 
 <!-- Meta images -->
-<meta property="og:image" content="{{site.url}}/meta.jpg">
+<meta property="og:image" content="{{site.url}}/og.jpg">
 <meta content="summary_large_image" name="twitter:card">
 <meta property="twitter:image" content="{{site.url}}/og.jpg">
 <link href="/assets/lgbt-gradient.png" rel="shortcut icon" type="image/x-icon">
