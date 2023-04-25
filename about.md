@@ -10,7 +10,7 @@ blocks:
 
         This site aims to provide accurate information and evidence-based facts to debunk these myths and misconceptions. By promoting greater understanding, we can help create a more inclusive society.
 
-        It is not claiming to be a definite source of truth. [Feedback]({{site.data.general.feedback-form}}) and critique (but not hate mail) are welcome.
+        It is not claiming to be a definite source of truth. Feedback and critique (but not hate mail) are welcome.
     - title: Why did you make this?
       text: | 
         Online arguments on the topic of LGBT+ rights often cascade into a heated back-and-forth of personal attacks. 
@@ -24,8 +24,8 @@ blocks:
 
         I wrote the original content for this website, but realize the most effective way to challenge misinformation is through collaboration and feedback. 
 
-        That's why I'm looking for [input from visitors]({{site.data.general.feedback-form}}), to make this site as informative and impactful as possible.
+        That's why I'm looking for input from visitors, to make this site as informative and impactful as possible.
     - title: Can I help?
       text: | 
-        Yes! There are countless misconceptions and countless ways to educate. If you have any ideas for myths to debunk, pages to add, or anything else, please [share your feedback]({{site.data.general.feedback-form}}).
+        Yes! There are countless misconceptions and countless ways to educate. If you have any ideas for myths to debunk, pages to add, or anything else, please share your feedback.
 ---

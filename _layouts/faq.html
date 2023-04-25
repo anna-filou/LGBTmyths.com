@@ -1,50 +1,36 @@
 ---
 layout: default
 ---
-<!-- layout: default means that this layout INCLUDES everything in default.html 
-AND adds the following code in the {{content}} area of default.html -->
-
-
-<section class="container mt4-ns mb5">
-    <div class="flex flex-column flex-row-ns pa4 br3 nl4-ns nr4-ns bg-faint ">
-        <!-- <h1 class="w-40-ns mt0 f4 fw4">LGBT Myths</h1> -->
-        <h1 class="w-40-ns mt0 f4 fw4">
-            <img src="/assets/lgbtmyths-logo.svg" alt="" style="max-width: 160px;">
+<section class="container mt6 mb5">
+    <div class="flex flex-column items-center flex-row-ns justify-between-ns items-end-ns nl0 ml4-ns">
+        <h1 class="hero-title tc tl-ns mb0-ns">
+            Frequent 
+            Questions<br><span class="fw5">about <span class="rainbow-text">LGBT</span> people</span>
         </h1>
-        <div class="">
-            <div class="f4 mb4">Frequently asked questions about LGBT people.</div>
-            <a href="{{site.data.general.feedback-form}}" target="_blank" class="main-link dim">
-                <div>Send feedback</div> <div>→</div>
-            </a>
+    
+        <div class="pill">
+            LGBT<span class="underline">myths</span>.com
         </div>
     </div>
+    {% include wip.html %}
 </section>
 
 <section class="container">
     {%- for faq in site.faq -%}
-    <a href="{{faq.url}}" class="link body-text">
-        <div id="{{faq.id | split: '--' | shift}}" class="grow flex-ns flex-row-ns justify-between mv4 ba b--black-10 pa4 br3 nl4-ns nr4-ns">
-            <div class="w-40-ns pr5-ns pt3-ns">
-                <div class="gray b ttu tracked f6">Question</div>
-                <h2 class="f4 mt2">“{{faq.title}}”</h2>
+    <a href="{{faq.url}}" class="card flex flex-column flex-row-ns" id="{{faq.id | split: '--' | shift}}">
+            <div class="mb2 w-40-ns">
+                <div class="o-70 pb1-ns">Question</div>
+                <h2 class="mt2 mt3-ns f5 strike">{{faq.title}}</h2>
             </div>
             
-            <div class="w-60-ns">
-                <div>
+            <div class="w-60-ns pl4-ns">
+                <div class="o-70 nb3 nb2-ns">Answer</div>
+                <div class="f4">
                     {{faq.short | markdownify }}
                 </div>
-                <div class="f3 tr">→</div>
+                <div class="o-60 tr">More →</div>
             </div>
-        </div>
+
     </a>
     {%- endfor -%}
-
-    <a href="{{site.data.general.feedback-form}}" class="link">
-        <div id="{{myth.id | split: '--' | shift}}" class="dim flex flex-row justify-between mv4 ba b--black-10 pa4 br3 nl4-ns nr4-ns">
-
-            <div class="f4 b">Suggest a question</div>
-            <div class="f3 tr">→</div>
-            
-        </div>
-    </a>
 </section>

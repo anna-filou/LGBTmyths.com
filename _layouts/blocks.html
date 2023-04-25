@@ -1,11 +1,14 @@
 ---
 layout: default
 ---
+<section class="container mt7">
+    {% include wip.html %}
+</section>
 
-<section class="container">
+<section class="container mt6">
     <div class="flex flex-row flex-wrap">
         {%- for block in page.blocks -%}
-        <div class=" ba b--black-10 pa4 br3 w-50-ns dib">
+        <div class="card w-50-ns dib">
             <h2 class="f5 f4-ns mt2">{{block.title}}</h2>
             <div>
                 {{block.text | markdownify }}
@@ -13,5 +16,4 @@ layout: default
         </div>
     {%- endfor -%}
     </div>
-
 </section>

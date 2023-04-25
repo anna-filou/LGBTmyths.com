@@ -11,7 +11,7 @@ $container: 1128px;
 // COLORS
 
 // $light-bg: #f8f8f8;
-$light-bg: #fdfdfd;
+$light-bg: #FAFAFA;
 $dark-bg: #1e1e1e;
 
 $light-faint: #FBF8F7;
@@ -19,9 +19,12 @@ $light-faint: #FBF8F7;
 $light-body: #272727; 
 $dark-body: #efefef;
 
-$light-border: #dcdcdc;
+$light-border: #D8D8D8;
 
-$light-link: #3B4F96;
+$light-link: #112f9c;
+
+$nav-bg: #202020;
+$nav-item: #3E3E3E;
 
 // CSS
 
@@ -46,57 +49,155 @@ html {
   }
 
 body {
-    font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+    font-family: Inter, system-ui, sans-serif;;
     font-size: 18px;
     color: $light-body;
     background-color: $light-bg;
     line-height: 130%;
 }
 
+nav {
+    position: fixed;
+    top: 5px;
+    left: 50%;
+    transform: translate(-50%, 0); // mobile
+    // right: 20px;
+
+    z-index: 99;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+
+    mix-blend-mode: multiply;
+
+    .logo {
+        width: 70px;
+        height: 70px;
+        // mix-blend-mode: multiply;
+    }
+
+    .nav-items {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 4px;
+        cursor: pointer;
+
+        background: $nav-bg;
+        border-radius: 100px;
+
+        a { 
+            color: #E4E4E4;
+            text-decoration: none;
+            padding: 10px 20px 12px;
+    
+            margin-left: -8px;
+            border-radius: 1000px;
+        }
+        
+        a:hover {
+            color: #fff;
+        }
+        .active {
+            color: #fff;
+            background: $nav-item;
+            margin-left: 0;
+        }
+    }
+}
+
+.hero-title {
+    font-size: 42px; // mobile 52
+    font-weight: 900;
+    line-height: 110%;
+}
+
+.rainbow-text {
+    background-image: linear-gradient(90deg, #C62B2B 0%, #E8853D 17.19%, #F5C417 35.42%, #81D130 58.33%, #63BEE5 77.6%, #9722F2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+.pill {
+    padding: 9px 20px 10px;
+    border-radius: 30px;
+    color: #0028F9;
+    font-weight: 700;
+    display: inline-block;
+
+    border: 3px solid transparent;
+
+    background-image: linear-gradient(white, white), 
+                      linear-gradient(86.51deg, #C62B2B 0%, #E8853D 17.19%, #F5C417 35.42%, #81D130 58.33%, #63BEE5 77.6%, #9722F2 100%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+
+.card {
+    // display: flex;
+    // flex-direction: column;
+    padding: 32px 32px 40px;
+
+    text-decoration: none;
+    background: $light-bg;
+    color: $light-body;
+    /* Stroke */
+    
+    border: 1px solid $light-border;
+
+    transition-duration: .5s;
+}
+
+.card:hover {
+    box-shadow: 0px 54px 96px rgba(0, 0, 0, 0.25), 0px 19.7109px 22.9466px rgba(0, 0, 0, 0.141384), 0px 9.56927px 8.51093px rgba(0, 0, 0, 0.0831012), 0px 4.69103px 2.41262px rgba(0, 0, 0, 0.0432452), 0px 1.85484px 0.136171px rgba(0, 0, 0, 0.0162015);
+}
+
+.button {
+    color: #fff;
+    font-weight: 700;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    width: 120px;
+    height: 120px;
+
+    /* Main Text */
+
+    background: $light-link;
+    border-radius: 100px;
+    transform: rotate(-5deg);
+    transition-duration: .3s;
+}
+
+.button:hover {
+    background: #1C1C1C;
+    transform: rotate(5deg);
+}
 .body-text {
     color: $light-body;
 }
 
 p {
-    line-height: 130%;
+    line-height: 140%;
 }
   
 a {
     color: $light-link;
 }
 
-.sticky {
-    position: sticky;
-    top: 0;
-    background-color: rgba(0, 0, 0, 0); /* Set the background color with an opacity less than 1 */
-    // mix-blend-mode: multiply;
-}
 
 .bg-faint {
     background-color: $light-faint;
 }
 
-// nav {
-//     position: sticky;
-//     top: 0;
-//     a {
-//         outline: 1px solid $light-border;
-//         outline-offset: -0.5px; // to create a "centered border", not natively supported in CSS
-//         display: flex;
-//         width: 100%;
-//         font-weight: bold;
-//         align-self: stretch;
-//         align-items: center;
-//         justify-content: center;
-//         padding: 10px 20px;
-//         text-decoration: none;
-//         color: $light-body;
-//         background-color: $light-bg;
-//     }
-//     a:hover {
-//         color: gray;
-//     }
-// }
 
 hr {
     max-width: $container;
@@ -116,6 +217,7 @@ hr {
     margin-top: 20px;
 }
 
+
 article {
     h1, h2, h3, h4, h5, h6 {
         font-size: 1em;
@@ -134,5 +236,15 @@ article {
       max-width: 100vw;
       padding-left: 0;
       padding-right: 0;
+    }
+
+    nav {
+        left: 50%;
+        transform: translate(-50%, 0);
+        right: auto;
+    }
+
+    .hero-title {
+        font-size: 38px;
     }
 }

@@ -1,105 +1,37 @@
 ---
 layout: default
 ---
-<!-- layout: default means that this layout INCLUDES everything in default.html 
-AND adds the following code in the {{content}} area of default.html -->
-
-
-<section class="container mt4-ns mb5">
-    <div class="flex flex-column flex-row-ns pa4 br3 nl4-ns nr4-ns bg-faint ">
-        <!-- <h1 class="w-40-ns mt0 f4 fw4">LGBT Myths</h1> -->
-        <h1 class="w-40-ns mt0 f4 fw4">
-            <img src="/assets/lgbtmyths-logo.svg" alt="" style="max-width: 160px;">
+<section class="container mt6 mb5">
+    <div class="flex flex-column items-center flex-row-ns justify-between-ns items-end-ns nl0 ml4-ns">
+        <h1 class="hero-title tc tl-ns mb0-ns">
+            Widespread<br>
+            misconceptions<br><span class="fw5">about <span class="rainbow-text">LGBT</span> people</span>
         </h1>
-        <div class="">
-            <div class="f4 mb4">Widespread misconceptions about LGBT people.</div>
-            <a href="{{site.data.general.feedback-form}}" target="_blank" class="main-link dim">
-                <div>Send feedback</div> <div>→</div>
-            </a>
+    
+        <div class="pill">
+            LGBT<span class="underline">myths</span>.com
         </div>
     </div>
-</section>
 
+    {% include wip.html %}
+</section>
 
 <section class="container">
     {%- for myth in site.myths -%}
-    <a href="{{myth.url}}" class="link body-text">
-        <div id="{{myth.id | split: '--' | shift}}" class="grow flex-ns flex-row-ns justify-between mv4 ba b--black-10 pa4 br3 nl4-ns nr4-ns">
-            <div class="w-40-ns pr5-ns pt3-ns">
-                <div class="dark-red b ttu tracked f6">{{myth.type}}</div>
-                <h2 class="f5 f4-ns mt2">{{myth.title}}</h2>
+    <a href="{{myth.url}}" class="card flex flex-column flex-row-ns" id="{{myth.id | split: '--' | shift}}">
+            <div class="mb2 w-40-ns">
+                <div class="o-70 pb1-ns">{{myth.type}}</div>
+                <h2 class="mt2 mt3-ns f5 strike">{{myth.title}}</h2>
             </div>
             
-            <div class="w-60-ns">
-                <div>
+            <div class="w-60-ns pl4-ns">
+                <div class="o-70 nb3 nb2-ns">Reality</div>
+                <div class="f4">
                     {{myth.short | markdownify }}
                 </div>
-                <div class="f3 tr">→</div>
+                <div class="o-60 tr">More →</div>
             </div>
-        </div>
+
     </a>
     {%- endfor -%}
-
-    <a href="{{site.data.general.feedback-form}}" class="link">
-        <div id="{{myth.id | split: '--' | shift}}" class="dim flex flex-row justify-between mv4 ba b--black-10 pa4 br3 nl4-ns nr4-ns">
-
-            <div class="f4 b">Suggest a myth</div>
-            <div class="f3 tr">→</div>
-            
-        </div>
-    </a>
 </section>
-
-<!-- <section class="container">
-
-    {%- for myth in site.myths -%}
-    <div id="{{myth.id | split: '--' | shift}}" class="flex-ns flex-row-ns justify-between mv5">
-        <div class="w-40-ns pr5-ns pt3-ns">
-            <div class="dark-red b ttu tracked f6">{{myth.type}}</div>
-            <h2 class="f5 mt2">{{myth.title}}</h2>
-        </div>
-        
-        <div class="w-60-ns">
-            <div>
-                {{myth.short | markdownify }}
-            </div>
-    
-            <div class="flex flex-row justify-between bt bw1 b--black-20">
-                <div class="ttu tracked o-50 pv2 f6 fw5">{{myth.tags}}</div>
-                <a class="pa2 link b w-100 tr ml5 dim" href="{{myth.url}}">→</a>
-            </div>
-        </div>
-    </div>
-    {%- endfor -%}
-
-    <div id="{{myth.id | split: '--' | shift}}" class="flex-ns flex-row-ns justify-between pt4 mv5">
-        <div class="w-40-ns pr5-ns pt2-ns">
-            <div class="dark-green b ttu tracked">Make a suggestion</div>
-        </div>
-        
-        <div class="w-60-ns">
-            <div>
-                {{myth.short | markdownify }}
-            </div>
-    
-            <a href="{{myth.url}}" class="dim link flex flex-row justify-between bt bw1 b--black-20">
-                <div class="ttu tracked pv2 f6 fw5">Take me to the form</div>
-                <div class="pa2 link b">→</div>
-            </a>
-        </div>
-    </div>
-</section> -->
-
-<!-- <section class="container">
-
-    {%- for myth in site.myths -%}
-    <div id="{{myth.id | split: '--' | shift}}" class="measure mv5">
-        <h2 class="f5"><span class="dark-red">{{myth.type}}:</span> {{myth.title}}</h2>
-        
-        <div>
-            <p style="widows: 2">{{myth.short}}</p>
-        </div>
-    </div>
-    {%- endfor -%}
-
-</section> -->
