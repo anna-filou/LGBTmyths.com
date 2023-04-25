@@ -181,6 +181,14 @@ nav {
     background: #1C1C1C;
     transform: rotate(5deg);
 }
+
+.strikethrough {
+    text-decoration-line: line-through;
+    text-decoration-color: rgba(255, 0, 55, 0.8);
+    text-decoration-style: solid;
+    text-decoration-thickness: 1px;
+}
+
 .body-text {
     color: $light-body;
 }
