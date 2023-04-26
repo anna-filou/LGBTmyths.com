@@ -2,9 +2,9 @@
 layout: myth
 type: Misconception
 title: If we make it acceptable to be gay, we'll encourage more kids to become gay when they grow up.
-short: This statement is based on the assumption that all kids are naturally straight and become (or choose to be) gay growing up. That assumption is false; just like straight kids often start having crushes when they're as young as 5, LGBT+ kids do too. **Depictions of LGBT+ people in media do not encourage kids to become gay, but rather validate their existing feelings, if present.** 
+short: This statement is based on the assumption that all kids are naturally straight and become (or choose to be) gay growing up. That is not the case. Many kids often start having crushes when they're as young as 5; some on others of the same sex. **Depictions of LGBT+ people in the media do not encourage kids to become gay, but rather validate their existing feelings, if present.** 
 tags: Kids
-order: 12
+order: 2
 ---
 
 Whenever people talk about “protecting” children from being exposed to LGBT people, rarely does anyone ask themselves: what about kids who *are* LGBT? ([If you thought only adults can be LGBT, read this.](/lgbt-kids))

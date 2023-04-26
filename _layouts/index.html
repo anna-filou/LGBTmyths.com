@@ -19,19 +19,24 @@ layout: default
 <section class="container">
     {%- for myth in site.myths -%}
     <a href="{{myth.url}}" class="card flex flex-column flex-row-ns" id="{{myth.id | split: '--' | shift}}">
-            <div class="mb2 w-40-ns">
-                <div class="o-70 pb1-ns">{{myth.type}}</div>
-                <h2 class="mt2 mt3-ns f5 strikethrough">{{myth.title}}</h2>
+        <div class="mb2 w-40-ns">
+            
+            <div class="o-70 pb1-ns">{{myth.type}}</div>
+            <h2 class="mt2 mt3-ns f5 strikethrough">{{myth.title}}</h2>
+        </div>
+        
+        <div class="w-60-ns pl4-ns">
+            <div class="o-70 nb3 nb2-ns">Reality</div>
+            <div class="f4">
+                {{myth.short | markdownify }}
             </div>
             
-            <div class="w-60-ns pl4-ns">
-                <div class="o-70 nb3 nb2-ns">Reality</div>
-                <div class="f4">
-                    {{myth.short | markdownify }}
-                </div>
-                <div class="o-60 tr">More →</div>
-            </div>
-
+            {% assign content_char = myth.content | size %}
+            {%- if content_char > 2 -%}
+            <div class="o-60 tr">Read more →</div>
+            {%- endif -%}
+            
+        </div>
     </a>
     {%- endfor -%}
 </section>
