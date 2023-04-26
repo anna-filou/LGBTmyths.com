@@ -24,7 +24,7 @@ $light-border: #D8D8D8;
 $light-link: #112f9c;
 
 $nav-bg: #202020;
-$nav-item: #3E3E3E;
+$nav-item: #494949;
 
 // CSS
 
@@ -93,8 +93,6 @@ nav {
             color: #E4E4E4;
             text-decoration: none;
             padding: 10px 20px 12px;
-    
-            margin-left: -8px;
             border-radius: 1000px;
         }
         
@@ -104,7 +102,7 @@ nav {
         .active {
             color: #fff;
             background: $nav-item;
-            margin-left: 0;
+            // margin: 0 -6px;
         }
     }
 }

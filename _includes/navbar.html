@@ -14,8 +14,8 @@
         <img src="/assets/lgbt-gradient.png" alt="logo" class="logo">
     </a>
     <div class="nav-items">
-        <a href="/" class="active">Myths</a>
-        <a href="/FAQ" class="">FAQ</a>
-        <a href="/about" class="">About</a>
+        <a href="/" class="{%- if page.url == '/' -%}active{%-endif-%}">Myths</a>
+        <a href="/FAQ" class="{%- if page.url contains 'faq' -%}active{%-endif-%}">FAQ</a>
+        <a href="/about" class="{%- if page.url contains 'about' -%}active{%-endif-%}">About</a>
     </div>
 </nav>
