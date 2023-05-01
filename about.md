@@ -22,10 +22,10 @@ blocks:
       text: | 
         I’m [Anna, a designer / developer from Europe](https://annafilou.com). 👋🏻 
 
-        I wrote the original content for this website, but realize the most effective way to challenge misinformation is through collaboration and feedback. 
+        Currently, I’m the only one writing the content of this website, but realize the most effective way to challenge misinformation is through collaboration and feedback. 
 
         That's why I'm looking for input from visitors, to make this site as informative and impactful as possible.
     - title: Can I help?
       text: | 
-        Yes! There are countless misconceptions and countless ways to educate. If you have any ideas for myths to debunk, pages to add, or anything else, please share your feedback.
+        Yes! There are countless misconceptions and countless ways to educate. If you have any ideas for myths to debunk, know of relevant research, or anything else, please share your feedback.
 ---
