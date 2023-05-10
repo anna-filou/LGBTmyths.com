@@ -29,7 +29,8 @@ $nav-item: #494949;
 // CSS
 
 .multiply {
-    mix-blend-mode: multiply;
+    mix-blend-mode: multiply !important;
+    // background-color: red;
 }
 
 html {
@@ -71,12 +72,10 @@ nav {
     padding: 0px;
     gap: 20px;
 
-    mix-blend-mode: multiply;
 
     .logo {
         width: 70px;
         height: 70px;
-        // mix-blend-mode: multiply;
     }
 
     .nav-items {
