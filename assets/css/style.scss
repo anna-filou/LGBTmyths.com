@@ -41,6 +41,7 @@ html {
     scroll-margin-top: 100px; // adds a margin to the top of the element that the anchor links to, effectively offsetting the scroll position.
   }
   
+
 .container, .container-ns {
     max-width: $container;
     padding-left: 16px;
@@ -222,6 +223,9 @@ hr {
     margin-top: 20px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    line-height: 120%;
+}
 
 article {
     h1, h2, h3, h4, h5, h6 {
