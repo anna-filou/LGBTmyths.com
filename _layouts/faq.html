@@ -20,7 +20,7 @@ layout: default
     <a href="{{faq.url}}" class="card flex flex-column flex-row-ns" id="{{faq.id | split: '--' | shift}}">
             <div class="mb2 w-40-ns">
                 <div class="o-70 pb1-ns">Question</div>
-                <h2 class="mt2 mt3-ns f5">{{faq.title}}</h2>
+                <h2 class="mt2 mt3-ns f4 black-90">{{faq.title}}</h2>
             </div>
             
             <div class="w-60-ns pl4-ns">
@@ -28,9 +28,11 @@ layout: default
                 <div class="f4">
                     {{faq.short | markdownify }}
                 </div>
-                <div class="o-60 tr">More →</div>
+                {% assign content_char = faq.content | size %}
+                    {%- if content_char > 2 -%}
+                    <div class="o-60 tr">More →</div>
+                {%- endif -%}
             </div>
-
     </a>
     {%- endfor -%}
 </section>

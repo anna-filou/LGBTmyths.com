@@ -19,10 +19,10 @@ layout: default
 <section class="container">
     {%- for myth in site.myths -%}
     <a href="{{myth.url}}" class="card flex flex-column flex-row-ns" id="{{myth.id | split: '--' | shift}}">
-        <div class="mb2 w-40-ns">
+        <div class="mb2 w-40-ns pr3-ns">
             <!-- {{myth.order}} -->
             <div class="o-70 pb1-ns">{{myth.type}}</div>
-            <h2 class="mt2 mt3-ns f5 strikethrough">{{myth.title}}</h2>
+            <h2 class="mt2 mt3-ns f5 strikethrough black-90">{{myth.title}}</h2>
         </div>
         
         <div class="w-60-ns pl4-ns">

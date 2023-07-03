@@ -58,6 +58,34 @@ body {
     line-height: 130%;
 }
 
+.btn {
+    display: inline-flex;
+    color: white;
+    fill: white;
+    font-weight: 600;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    justify-content: flex-end;
+    padding: .3rem 1rem .3rem .75rem;
+    background-color: #313131;
+    border-radius: 100px;  
+    transition: background-color .15s ease-in;    
+    
+    svg {
+        width: 26px;
+    }
+}
+
+.btn.twitter {
+    background-color: #1D9BF0;
+}
+
+.btn:hover {
+    background-color: #001a33;
+}
+
 nav {
     position: fixed;
     top: 5px;
@@ -182,7 +210,7 @@ nav {
 
 .strikethrough {
     text-decoration-line: line-through;
-    text-decoration-color: rgba(255, 0, 55, 0.8);
+    text-decoration-color: rgba(255, 0, 55, 0.6);
     text-decoration-style: solid;
     text-decoration-thickness: 1px;
 }
@@ -192,7 +220,7 @@ nav {
 }
 
 p {
-    line-height: 140%;
+    line-height: 130%;
 }
   
 a {

@@ -2,7 +2,7 @@
 layout: myth
 type: Myth
 title: Because gay people cannot procreate, they’ll be wiped out if they don’t “recruit” / turn kids gay.
-short: LGBT people have always existed throughout history. A certain percentage of kids born is statistically bound to be LGBT. Thus, there’s no need to “turn” anyone, even if such a thing was possible.
+short: LGBT people have always existed throughout history. A certain percentage of kids born is statistically bound to be LGBT. Thus, there’s no need to “turn” anyone, even it were possible.
 tags: kids
 order: 3
 ---
@@ -18,4 +18,3 @@ We all grasp this intuitively. We’ve had crushes in elementary school, before 
 Do you truly believe that you can talk anyone into feeling those things? That you can *groom* them into feeling love, infatuation, butterfies in their stomach or a desire to grow old with a specific person?
 
 Because that’s exactly what you’re insinuating when you say you worry that gay people will turn your kids gay.
-
