@@ -17,3 +17,6 @@ Imagine a woman considering a relationship with a bisexual man. She might think 
 First off, straight and gay people cheat too, so bisexuality is not the culprit. Secondly, that's like saying “if a man likes both blondes and brunettes, then he'll never be truly satisfied with a blond woman and will cheat with a brunette.” 
 
 It sounds absurd because *it is*.
+
+## Resources
+- [Why We Hate Bi Men on YouTube (20 min)](https://youtu.be/IbHhIeYL9no) — TL;DR: Bi men were portrayed as "bridges" for AIDS during the peak of the pandemic. Sensationalized articles, depicting them in the worst possible light, were being published extensively. The media of that time significantly influenced the perspective of the generation, and this viewpoint has been passed down to subsequent generations.
