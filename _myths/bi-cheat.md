@@ -22,4 +22,4 @@ It sounds absurd because *it is*.
 
 > Stop for a minute and think about all the different things you find attractive in a person. … Are you always attracted to people of the same weight, height, race? With the same eye colour, hair colour, accent? No? Does that mean you can’t make your mind up? Or that you don’t know what you want? No.
 
-— [Source: stonewall.org.uk]{https://www.stonewall.org.uk/node/55084}
+— [Source: stonewall.org.uk](https://www.stonewall.org.uk/node/55084)
