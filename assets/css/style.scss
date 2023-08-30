@@ -262,8 +262,14 @@ article {
     }
 }
 
-.quote {
+.quote, blockquote {
     font-family: 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursive;
+    border-left: 5px solid gray;
+    margin: 0;
+    padding: 0px 20px;
+    font-style: italic;
+    font-size: 1.2em;
+    letter-spacing: 1px;
 }
 
 /* SMALL SCREEN */
