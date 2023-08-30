@@ -2,7 +2,7 @@
 layout: myth
 type: Misconception
 title: Only adults can be LGBT+ because children aren’t sexual.
-short: While kids don’t typically experience sexual attraction towards others, crushes are common for kids aged 4+. Just like some kids get crushes on others of the opposite sex in kindergarten, some get crushes on kids of the same sex.
+short: While children don’t experience sexual attraction, crushes are common from the age of 5. Just like some kids get crushes on others of the opposite sex, some get crushes on kids of the same sex.
 tags: Kids
 order: 10
 ---

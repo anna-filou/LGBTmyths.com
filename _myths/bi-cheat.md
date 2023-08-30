@@ -8,7 +8,7 @@ order: 7
 ---
 
 ## Bisexuality ≠ promiscuity
-Bisexual people (the B in LGBT) are often stigmatized in both straight and queer communities. Defined as those who like people of more than one gender, they're regularly seen as indecisive, impossible-to-satisfy cheaters. 
+Bisexual people (the B in LGBT) are often stigmatized in both straight and queer communities, even though they outnumber all other queer identities. Defined as those who like people of more than one gender, they're regularly seen as indecisive, impossible-to-satisfy cheaters. 
 
 That's not the case.
 
@@ -22,8 +22,9 @@ It sounds absurd because *it is*.
 
 > Stop for a minute and think about all the different things you find attractive in a person. … Are you always attracted to people of the same weight, height, race? With the same eye colour, hair colour, accent? No? Does that mean you can’t make your mind up? Or that you don’t know what you want? No.
 
-— [Source: stonewall.org.uk](https://www.stonewall.org.uk/node/55084)
+— Source: [stonewall.org.uk](https://www.stonewall.org.uk/node/55084)
 
+---
 
 ## Resources
 - [Why We Hate Bi Men on YouTube (20 min)](https://youtu.be/IbHhIeYL9no) — TL;DR: Bi men were portrayed as "bridges" for AIDS during the peak of the pandemic. Sensationalized articles, depicting them in the worst possible light, were being published extensively. The media of that time significantly influenced the perspective of the generation, and this viewpoint has been passed down to subsequent generations.
