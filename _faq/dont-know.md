@@ -2,7 +2,7 @@
 layout: myth
 type: question
 title: I don't even know any LGBT people, why should I care?
-short: Around 8% of people globally identify as LGBT. Considering the real number may be larger (as people are often afraid of disclosing that their sexuality is anything but straight), **it's very likely that someone in your close circle is&nbsp;LGBT+**.
+short: Around 8% of people globally identify as LGBT. Considering the real number may be larger (as people are often afraid of disclosing that their sexuality is anything but straight), **it's very likely that someone in your close circle is&nbsp;LGBT**.
 tags: Gay
 order: 3
 ---

@@ -14,7 +14,7 @@ That's not the case.
 
 Imagine a woman considering a relationship with a bisexual man. She might think “since he also likes men, he'll never be fully satisfied with a woman and will eventually cheat with a man.” (This is sadly a very common, and very misguided, thought process.)
 
-First off, straight and gay people cheat too, so bisexuality is not the culprit. Secondly, that's like saying “if a man likes both blondes and brunettes, then he'll never be truly satisfied with a blond woman and will cheat with a brunette.” 
+First off, straight and gay people cheat too, so bisexuality is not the culprit. Secondly, that's like saying “if a man likes both short and tall women, then he'll never be truly satisfied with a short woman and will cheat with a tall one.” 
 
 It sounds absurd because *it is*.
 

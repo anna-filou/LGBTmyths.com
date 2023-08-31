@@ -2,12 +2,12 @@
 layout: myth
 type: Misconception
 title: If we make it acceptable to be gay, we'll encourage more kids to become gay when they grow up.
-short: This statement is based on the assumption that all kids are naturally straight and become (or choose to be) gay growing up. That is not the case. Many kids often start having crushes when they're as young as 5; some on others of the same sex. **Depictions of LGBT+ people in the media do not encourage kids to become gay, but rather validate their existing feelings, if present.** 
+short: This statement is based on the assumption that all kids are naturally straight and can become (or choose to be) gay growing up. That is not the case. Depictions of LGBT people in the media do not encourage kids to become gay, but rather normalize such feelings, *if&nbsp;already&nbsp;present.* 
 tags: Kids
 order: 1
 ---
 
-Whenever people talk about “protecting” children from being exposed to LGBT people, rarely does anyone ask themselves: what about kids who *are* LGBT? ([If you thought only adults can be LGBT, read this.](/lgbt-kids))
+Whenever people talk about “protecting” children from being exposed to LGBT people, rarely does anyone ask themselves: what about [the children who *are*&nbsp;LGBT?](/lgbt-kids)
 
 ## Why depictions of LGBT people in media are important
 
@@ -23,4 +23,4 @@ But it doesn't have to be.
 
 Picture the same scenario but this time, you don't exist in isolation. You see people like you, people with the kind of relationships you want, all around you; in books, movies, cartoons, at school, in the news. Even if some people call you a freak, you know you're not. Instead of getting depressed and anxious, you can enjoy your life and build lasting relationships.
 
-**The gay rights movement isn't about promoting some imaginary “gay agenda” (to this day, I have no idea what that means). It's about giving everyone the opportunity to live a fulfilling life with the ones they love.**
+The gay rights movement isn't about promoting some imaginary “gay agenda”. It's about **giving everyone the opportunity to live a fulfilling life with the ones they&nbsp;love.**

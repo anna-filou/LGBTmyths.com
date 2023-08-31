@@ -3,7 +3,7 @@
 
 ## Why did you make this?
 
-Online arguments on the topic of LGBT+ rights often cascade into a heated back-and-forth of personal attacks.
+Online arguments on the topic of LGBT rights often cascade into a heated back-and-forth of personal attacks.
 
 I imagined a resource that debunks misconceptions in a polite and understanding way, as you might try to explain to your prejudiced—but actually kind—relatives.
 
