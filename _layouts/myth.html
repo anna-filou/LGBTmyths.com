@@ -6,9 +6,11 @@ layout: default
 
     <div class="mt5 flex flex-column flex-row-ns" id="{{myth.id | split: '--' | shift}}">
 
-        <div class="mb2 w-40-ns sticky">
-            <div class="o-70 pb1-ns">{{page.type | capitalize}}</div>
+        <div class="mb2 w-40-ns">
+            <div class="sticky">
+                <div class="o-70 pb1-ns">{{page.type | capitalize}}</div>
             <h1 class="mt2 mt3-ns f4 s{%- if page.type != 'question' -%}trikethrough{%-endif-%}">{{page.title}}</h1>
+            </div>
         </div>
     
         <div class="w-60-ns pl4-ns">

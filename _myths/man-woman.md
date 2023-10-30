@@ -20,10 +20,10 @@ If someone says “you’re not a **real man**!” they're not literally claimin
 
 ---
 
-If you were wondering, I’d define the social variant of the words man and woman as “a person who, if made to choose which societal role — that for those born with testicles or ovaries — is closer to the way they want to live their lives, they’d pick the role for those with { testicles or ovaries respectively }.”
+If you were wondering, I’d define the social variant of the words man and woman as “a person who, if made to choose which societal role — that for those born with testicles or ovaries — is closer to the way they want to live their lives, they’d pick the role for those with { testicles or ovaries respectively&nbsp;}.”
 
 ---
 
 It’s interesting to note that [one out of every 20,000 to 64,000 babies born with a Y chromosome has Androgen Insensitivity Syndrome (AIS)](https://pubmed.ncbi.nlm.nih.gov/22812659/) — which means their body does not react to testosterone. In other words, they are assigned female at birth and are identical to typical women, except for the fact that they don’t menstruate (due to the absence of a uterus or ovaries).
 
-Even those who vehemently argue that gender is solely determined by one's chromosomes (the presence of a Y chromosome always indicating a male) base their judgment of a person’s sex on their appearance, since they cannot test their DNA. Therefore, they would perceive people with AIS as women, demonstrating how it’s not solely about chromosomes in the first place.
+Even those who vehemently argue that gender is solely determined by one's chromosomes (the presence of a Y chromosome always indicating a male) base their judgment of a person’s sex on their appearance, since they cannot test their DNA. Therefore, they would perceive people with AIS as women, demonstrating how it’s not solely about chromosomes in the first&nbsp;place.

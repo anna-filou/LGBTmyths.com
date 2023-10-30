@@ -210,9 +210,9 @@ nav {
 
 .strikethrough {
     text-decoration-line: line-through;
-    text-decoration-color: rgba(255, 0, 55, 0.6);
+    text-decoration-color: rgba(255, 0, 0, 0.5);
     text-decoration-style: solid;
-    text-decoration-thickness: 1px;
+    text-decoration-thickness: 1.5px;
 }
 
 .body-text {
@@ -270,6 +270,11 @@ article {
     font-style: italic;
     font-size: 1.2em;
     letter-spacing: 1px;
+}
+
+.sticky {
+    position: sticky;
+    top: 100px;
 }
 
 /* SMALL SCREEN */
