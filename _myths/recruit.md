@@ -18,3 +18,13 @@ We all grasp this intuitively. We’ve had crushes in elementary school, before 
 Do you truly believe that you can talk anyone into feeling those things? That you can *groom* them into feeling love, infatuation, butterflies in their stomach or a desire to grow old with a specific person?
 
 Because that’s exactly what you’re insinuating when you say you worry that gay people will turn your kids gay.
+
+---
+
+## Resources
+- [The 100-Year-Old Myth of Gays “Coming for Your Children”](https://www.youtube.com/watch?v=oUu2aM8e87U)
+    - Key Points: 
+        - In the late 90s, Jerry Falwell Senior used a joke a gay man made about the purple Teletubby, Tinky Winky, being a queer icon as proof of a concerted effort among gay people to turn children gay.
+        - Throughout history, undesirable groups have been falsely accused of being dangerous to children as a form of propaganda to mobilize support for legislation. 
+        - Children are one group that most people want to protect, so claims related to children getting hurt are an effective tool to incite outrage. But in addition, children symbolize the future. Therefor, trying to control what children are exposed to, can be an attempt to control the future—to maintain the status quo—since change can bring about shifts in power.
+        - Minority groups (amongst them Queer people) are used as convenient villains to bolster those in power.
