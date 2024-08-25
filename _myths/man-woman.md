@@ -1,7 +1,7 @@
 ---
 layout: myth
 type: Linguistic Misunderstanding
-title: A man cannot become a woman
+title: A man cannot become a woman.
 short: “Woman” can mean **A.** a human born with ovaries, or **B.** the behavioral expectations about how these humans behave. If you say “a man cannot become a woman,” you‘re using definition **A**. If you disagree, you’re going by definition **B**.
 tags: Trans
 order: 11

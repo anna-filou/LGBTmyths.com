@@ -1,7 +1,7 @@
 ---
 layout: myth
 type: Propaganda
-title: Trans-women are predators
+title: Trans-women are predators.
 short: “Many of the arguments against trans people today are simply recycled homophobia from the ’80s and ’90s. We [were] being told that gay people were predators and lesbians were a threat in single-sex spaces. That wasn’t true of lesbians, bi and gay people then, and it isn’t true of trans people now.” 
 tags: Trans
 order: 12

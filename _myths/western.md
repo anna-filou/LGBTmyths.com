@@ -1,7 +1,7 @@
 ---
 layout: myth
 type: Myth
-title: LGBT identities are a Western trend
+title: LGBT identities are a Western trend.
 short: People whom we’d label LGBT today have existed either visibly or secretively in societies around the globe since the dawn of history.
 tags: LGBT
 order: 14
