@@ -17,4 +17,4 @@ This is a type of fear-mongering, used to appeal to voters who hold prejudiced v
 
 That might earn them more votes, but it also creates an environment in which violence and discrimination against transgender individuals are more likely to occur. It also distracts from more pressing issues, such as healthcare and education, by manipulating public opinion through fear and misinformation.
 
-When hearing serious claims against marginzalized groups (“immigrants steal our jobs”, “gay men infect children with AIDS”, etc.) always think critically: is there evidence supporting these claims? If not, who benefits if the public believes them?
+When hearing serious claims against marginalized groups (“immigrants steal our jobs”, “gay men infect children with AIDS”, etc.) always think critically: is there evidence supporting these claims? If not, who benefits if the public believes them?
