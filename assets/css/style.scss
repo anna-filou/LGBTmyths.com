@@ -163,24 +163,23 @@ nav {
     background-clip: padding-box, border-box;
 }
 
-.card {
-    // display: flex;
-    // flex-direction: column;
-    padding: 32px 32px 40px;
-
+.card, .card-page {
+    padding: 32px 32px 40px 32px;
     text-decoration: none;
     background: $light-bg;
     color: $light-body;
-    /* Stroke */
-    
     border: 1px solid $light-border;
-
     transition-duration: .5s;
 }
 
 .card:hover {
     box-shadow: 0px 54px 96px rgba(0, 0, 0, 0.25), 0px 19.7109px 22.9466px rgba(0, 0, 0, 0.141384), 0px 9.56927px 8.51093px rgba(0, 0, 0, 0.0831012), 0px 4.69103px 2.41262px rgba(0, 0, 0, 0.0432452), 0px 1.85484px 0.136171px rgba(0, 0, 0, 0.0162015);
 }
+
+.card-page {
+    box-shadow: 0px 54px 96px rgba(0, 0, 0, 0.15), 0px 19.7109px 22.9466px rgba(0, 0, 0, 0.08), 0px 9.56927px 8.51093px rgba(0, 0, 0, 0.05), 0px 4.69103px 2.41262px rgba(0, 0, 0, 0.03), 0px 1.85484px 0.136171px rgba(0, 0, 0, 0.01);
+}
+
 
 .button {
     color: #fff;
@@ -294,5 +293,9 @@ article {
 
     .hero-title {
         font-size: 38px;
+    }
+
+    .card, .card-page {
+        padding: 24px 24px 32px 24px;
     }
 }
